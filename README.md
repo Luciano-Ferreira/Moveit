@@ -32,3 +32,43 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## mexer na tag head
+
+```bash
+    touch src/pages/_document.tsx
+
+```
+
+e nesse arquivo
+
+```code
+    import Document, { Html, Head, Main, NextScript } from 'next/document';
+
+    export default class MyDocument extends Document {
+        render() {
+            return (
+                <Html>
+                    <Head>
+                        {/*e agora posso colocar as fontes do google lembrando de fechar as tags sem conteúdo*/}
+                        <link rel="preconnect" href="https://fonts.gstatic.com" />
+                        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
+                    </Head>
+                    <body>
+                        <Main />
+                        <NextScript />
+                    </body>
+                </Html>
+            );
+        }
+    }
+
+```
+
+as fontes foram colocadas nesse arquivo _document.tsx porque ele carrega uma unica vez tornando-se menos custoso, e por isso _document.tsx e não _app.tsx
+
+## CSS modules
+
+    CSS que afeta apenas um unico componente dentro da aplicação.
+    foi trocado o nome das classes com hifens para camelCase
