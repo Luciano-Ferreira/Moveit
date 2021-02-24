@@ -72,3 +72,6 @@ as fontes foram colocadas nesse arquivo _document.tsx porque ele carrega uma uni
 
     CSS que afeta apenas um unico componente dentro da aplicação.
     foi trocado o nome das classes com hifens para camelCase
+
+## Context API
+    Comunicação entre componentes, repassar informações e funções.
