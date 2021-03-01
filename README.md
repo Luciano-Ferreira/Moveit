@@ -77,3 +77,12 @@ as fontes foram colocadas nesse arquivo _document.tsx porque ele carrega uma uni
     Comunicação entre componentes, repassar informações e funções.
 
 mdn.notification
+
+## versão 2.0 
+
+https://www.figma.com/file/vRbW1u0CEZuG2zE6bU5qLg/Move.it-2.0/duplicate
+
+oauth github
+
+https://www.youtube.com/watch?v=Cz55Jmhfw84
+
