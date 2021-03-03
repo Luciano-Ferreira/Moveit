@@ -86,3 +86,14 @@ oauth github
 
 https://www.youtube.com/watch?v=Cz55Jmhfw84
 
+seg
+fundamentos react
+ter
+nextJS
+qua
+contextAPI
+qui
+funcionalidades
+sex
+finalizando a aplicação
+
