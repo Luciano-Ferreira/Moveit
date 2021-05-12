@@ -40,6 +40,11 @@ $ yarn
 # or
 $ npm install
 
+# Run the fake API
+$ yarn server
+# or 
+$ npm server
+
 # Run the application in dev mode
 $ yarn dev
 # or
