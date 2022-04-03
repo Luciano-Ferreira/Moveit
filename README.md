@@ -16,7 +16,6 @@ Move.it is an App that uses the pomodoro technique, in order to improve your pro
 - [js-cookie](https://github.com/js-cookie/js-cookie)
 - [NextJS](https://nextjs.org/)
 - [React](https://pt-br.reactjs.org/)
-- [react-dom](https://pt-br.reactjs.org/docs/react-dom.html)
 - [Typescript](https://www.typescriptlang.org/)
 
 ## ❓ How to install
